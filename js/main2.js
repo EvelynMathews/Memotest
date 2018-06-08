@@ -1,21 +1,26 @@
 
-  function onclick() {
+  function onclick() { 
 
     var el = document.getElementById("input");
 
 if (el !== null && el.value === "")
 {
+
   document.getElementById("demo").innerHTML = "Hello World";
+
 }else{
+
   console.log("nada.");
+
 }
   }
 
-   /* if ($('#input')== "si" {
-          document.getElementById("demo").innerHTML = "Hello World";
-    } else {}
-  document.getElementById("demo").innerHTML = "Chau";
-}
+   /* 
+         if ($('#input')== "si" {
+                document.getElementById("demo").innerHTML = "Hello World";
+          } else {}
+        document.getElementById("demo").innerHTML = "Chau";
+          }
 */
 
 $(document).ready(function(){
@@ -233,4 +238,4 @@ $(document).ready(function(){
     }
   });
 
-};
+});
